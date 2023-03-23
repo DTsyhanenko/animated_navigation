@@ -1,0 +1,9 @@
+"use strict";
+
+const toggle = document.getElementById('toggle');
+const nav = document.getElementById('nav');
+
+toggle.addEventListener('click', () => {
+    let toggleClass = nav.classList;
+    toggleClass.toggle('active');
+});
